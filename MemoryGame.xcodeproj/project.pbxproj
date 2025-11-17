@@ -6,6 +6,21 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A068B5092ECADB110036F9E6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A068B5082ECADB110036F9E6 /* CardView.swift */; };
+		A068B50B2ECADB1C0036F9E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A068B50A2ECADB1C0036F9E6 /* ContentView.swift */; };
+		A068B50E2ECADB460036F9E6 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A068B50D2ECADB460036F9E6 /* GameViewModel.swift */; };
+		A068B5122ECADB700036F9E6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A068B5112ECADB700036F9E6 /* Card.swift */; };
+		A068B5142ECADBCC0036F9E6 /* LandmarkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A068B5132ECADBCC0036F9E6 /* LandmarkAPI.swift */; };
+		A068B5222ECAEBBE0036F9E6 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A068B5212ECAEBBE0036F9E6 /* Landmark.swift */; };
+		A068B5262ECAF21A0036F9E6 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A068B5252ECAF21A0036F9E6 /* IntroView.swift */; };
+		A068B52D2ECAF4820036F9E6 /* GameLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A068B52C2ECAF4820036F9E6 /* GameLogicTests.swift */; };
+		A068B52E2ECAFB2A0036F9E6 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A068B50D2ECADB460036F9E6 /* GameViewModel.swift */; };
+		A068B52F2ECAFC4E0036F9E6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A068B5112ECADB700036F9E6 /* Card.swift */; };
+		A068B5302ECAFC5B0036F9E6 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A068B5212ECAEBBE0036F9E6 /* Landmark.swift */; };
+		A068B5332ECAFD500036F9E6 /* LandmarkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A068B5132ECADBCC0036F9E6 /* LandmarkAPI.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A068B4C02ECAD9A40036F9E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,22 +42,20 @@
 		A068B4B22ECAD9A20036F9E6 /* MemoryGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A068B4BF2ECAD9A40036F9E6 /* MemoryGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A068B4C92ECAD9A40036F9E6 /* MemoryGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A068B5082ECADB110036F9E6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A068B50A2ECADB1C0036F9E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A068B50D2ECADB460036F9E6 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		A068B5112ECADB700036F9E6 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A068B5132ECADBCC0036F9E6 /* LandmarkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkAPI.swift; path = Models/LandmarkAPI.swift; sourceTree = SOURCE_ROOT; };
+		A068B5212ECAEBBE0036F9E6 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		A068B5252ECAF21A0036F9E6 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		A068B52C2ECAF4820036F9E6 /* GameLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogicTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A068B4B42ECAD9A20036F9E6 /* MemoryGame */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MemoryGame;
-			sourceTree = "<group>";
-		};
-		A068B4C22ECAD9A40036F9E6 /* MemoryGameTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MemoryGameTests;
-			sourceTree = "<group>";
-		};
-		A068B4CC2ECAD9A40036F9E6 /* MemoryGameUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MemoryGameUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +88,12 @@
 		A068B4A92ECAD9A20036F9E6 = {
 			isa = PBXGroup;
 			children = (
+				A068B5322ECAFD0E0036F9E6 /* Services */,
+				A068B52B2ECAF4520036F9E6 /* MemoryGameTests */,
+				A068B5102ECADB650036F9E6 /* Models */,
+				A068B50C2ECADB360036F9E6 /* ViewModels */,
+				A068B5072ECADAEA0036F9E6 /* Views */,
 				A068B4B42ECAD9A20036F9E6 /* MemoryGame */,
-				A068B4C22ECAD9A40036F9E6 /* MemoryGameTests */,
-				A068B4CC2ECAD9A40036F9E6 /* MemoryGameUITests */,
 				A068B4B32ECAD9A20036F9E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +106,49 @@
 				A068B4C92ECAD9A40036F9E6 /* MemoryGameUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A068B5072ECADAEA0036F9E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A068B5082ECADB110036F9E6 /* CardView.swift */,
+				A068B50A2ECADB1C0036F9E6 /* ContentView.swift */,
+				A068B5252ECAF21A0036F9E6 /* IntroView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A068B50C2ECADB360036F9E6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A068B50D2ECADB460036F9E6 /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A068B5102ECADB650036F9E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A068B5112ECADB700036F9E6 /* Card.swift */,
+				A068B5212ECAEBBE0036F9E6 /* Landmark.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A068B52B2ECAF4520036F9E6 /* MemoryGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				A068B52C2ECAF4820036F9E6 /* GameLogicTests.swift */,
+			);
+			path = MemoryGameTests;
+			sourceTree = "<group>";
+		};
+		A068B5322ECAFD0E0036F9E6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A068B5132ECADBCC0036F9E6 /* LandmarkAPI.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,9 +189,6 @@
 			dependencies = (
 				A068B4C12ECAD9A40036F9E6 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				A068B4C22ECAD9A40036F9E6 /* MemoryGameTests */,
-			);
 			name = MemoryGameTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +208,6 @@
 			);
 			dependencies = (
 				A068B4CB2ECAD9A40036F9E6 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				A068B4CC2ECAD9A40036F9E6 /* MemoryGameUITests */,
 			);
 			name = MemoryGameUITests;
 			packageProductDependencies = (
@@ -178,6 +231,7 @@
 					};
 					A068B4BE2ECAD9A40036F9E6 = {
 						CreatedOnToolsVersion = 26.0.1;
+						LastSwiftMigration = 2600;
 						TestTargetID = A068B4B12ECAD9A20036F9E6;
 					};
 					A068B4C82ECAD9A40036F9E6 = {
@@ -236,6 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A068B5222ECAEBBE0036F9E6 /* Landmark.swift in Sources */,
+				A068B5262ECAF21A0036F9E6 /* IntroView.swift in Sources */,
+				A068B50E2ECADB460036F9E6 /* GameViewModel.swift in Sources */,
+				A068B5122ECADB700036F9E6 /* Card.swift in Sources */,
+				A068B50B2ECADB1C0036F9E6 /* ContentView.swift in Sources */,
+				A068B5142ECADBCC0036F9E6 /* LandmarkAPI.swift in Sources */,
+				A068B5092ECADB110036F9E6 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A068B52E2ECAFB2A0036F9E6 /* GameViewModel.swift in Sources */,
+				A068B52F2ECAFC4E0036F9E6 /* Card.swift in Sources */,
+				A068B52D2ECAF4820036F9E6 /* GameLogicTests.swift in Sources */,
+				A068B5332ECAFD500036F9E6 /* LandmarkAPI.swift in Sources */,
+				A068B5302ECAFC5B0036F9E6 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +479,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Lucas.MemoryGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -458,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K5HZ8B5AMP;
@@ -467,8 +535,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Lucas.MemoryGameTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = DEBUG;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -480,6 +551,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K5HZ8B5AMP;
