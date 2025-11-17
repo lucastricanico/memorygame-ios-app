@@ -90,8 +90,8 @@
 ## Screenshots  
 
 <p align="center">
-  <img src="Screenshots/start_screen.png" width="280" alt="Start Screen" />
-  <img src="Screenshots/game_screen.png" width="280" alt="Game Screen" />
+  <img src="Screenshots/start_screen .png" width="280" alt="Start Screen" />
+  <img src="Screenshots/game_screen .png" width="280" alt="Game Screen" />
 </p>
 
 <p align="center">
