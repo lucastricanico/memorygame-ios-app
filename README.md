@@ -34,7 +34,7 @@
 - ObservableObject + @Published state management
 - Clean MVVM separation
 - Isolated API layer for Back4App requests
-- Fully unit-testes matching logic
+- Fully unit-tested matching logic
 
 ---
 
