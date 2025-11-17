@@ -135,7 +135,7 @@ Heart of App:
 #### **Game Logic**
 - Handles first/second selection flow
 - Determines whether two cards match
-- Applies appropriatae delays for match/mismatch
+- Applies appropriate delays for match/mismatch
 - Tracks moves and win condition
 
 #### **Deck Creation**
@@ -281,7 +281,7 @@ All NYC landmark imagery belongs to their respective owners.
 ### API + Data
 - Landmark metadata sheet
 - Caching of fetched images
-- Offile-first fallback options
+- Offline-first fallback options
 
 ---
 
