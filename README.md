@@ -138,7 +138,7 @@ Heart of App:
 - Applies appropriatae delays for match/mismatch
 - Tracks moves and win condition
 
-#### **Deck Creation **
+#### **Deck Creation**
 - Creates paired cards from Back4App image URLs
 - Falls back to SF Symbols
 - Shuffles and resets cleanly
