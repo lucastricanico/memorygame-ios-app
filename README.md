@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/SwiftUI-Ready-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Swift_Concurrency-async%2Fawait-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Architecture-MVVM_+_ObservableObject-informational?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Networking-Back4App_API-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Networking-URLSession_+_Back4App-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Unit_Tests-Included-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
 
@@ -34,7 +34,7 @@
 - ObservableObject + @Published state management
 - Clean MVVM separation
 - Isolated API layer for Back4App requests
-- Fully unit-tested matching logic
+- Unit tests for the core matching algorithm and deck setup
 
 ---
 
@@ -59,7 +59,7 @@
 ### Core Gameplay
 - Flip cards to reveal images
 - Match all pairs to win
-- Smooth flip & fade animations
+- Smooth 3D flip animations and opacity transitions
 - Win tracker with move counter
 - Support for 2, 4, 6, or 8 pairs
 
@@ -247,8 +247,8 @@ NYCLandmarkMemory/
 │
 ├── Screenshots/
 │   ├── demo.gif
-│   ├── start_screen.png
-│   └── game_screen.png
+│   ├── start_screen .png
+│   └── game_screen .png
 │
 ├── Assets.xcassets
 ├── MemoryGame.swift
